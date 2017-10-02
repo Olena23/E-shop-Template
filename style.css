@@ -1,0 +1,221 @@
+img, video {
+    max-width: 100%;
+}
+
+body{
+    max-width: 1300px;
+    font-family: "Gill Sans Ultra Bold", "Garamond", sans-serif;
+    margin: 0 auto;
+}
+.right{
+    float: right;
+}
+.left{
+    float:left;
+}
+header {
+    margin-top: 2.54%;
+}
+.bag img {
+    padding-left: 5.084745762%;
+}
+.top-nav {
+    width: 20%;
+    font-size: 0.8em;
+}
+.top-nav a {
+    text-decoration: none;
+    color: #000;
+}
+.logo {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-left: 4.23%;
+}
+nav {
+    width: 100%;
+    overflow: hidden;
+}
+nav ul {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    padding-left: 4.23%;
+}
+nav ul li {
+    float: left;
+    margin-right: 2%;
+}
+nav ul a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+    font-weight: bold;
+}
+article {
+    max-width: 100%;
+    padding-left: 4.23%;
+}
+#search {
+    background-image: url("img/search-logo.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: lightgray;
+}
+.slider {
+    padding-left: 4.23%;
+    background: blue;
+}
+
+.example {
+    width: 50%;
+}
+.boots {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.girl {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inscr {
+    font-family: "Georgia", sans-serif;
+    font-weight: 600;
+    text-indent: 70%;
+    z-index: 50;
+    margin-top:-48%;
+}
+
+.inscr-2 {
+    font-family: "Georgia", sans-serif;
+    font-weight: 400;
+    text-indent: 72.5%;
+}
+.new-items {
+    width: 25%;
+    float: left;
+
+}
+.new-items img {
+    margin: 3%;
+    width: 90%;
+}
+.promo {
+    margin-bottom: 350px;
+}
+.new-arrivals h3 {
+    padding-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.new-arrivals {
+    margin-bottom: 80px;
+}
+.groups div {
+    height: 600px;
+}
+
+.item-name {
+    font-family: "Georgia", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.item-price {
+    font-family: "Georgia", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.btn-all {
+    width: 200px;
+    margin-left: 40%;
+    padding: 0.7em;
+    background-color: white;
+    border: 1px solid darkgrey;
+}
+
+.footer-section {
+    width: 25%;
+    float: left;
+    height: 450px;
+}
+.footer-section h5 {
+    font-family: "Georgia", sans-serif;
+    margin-left: 10%;
+}
+.footer-section a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-family: "Georgia", sans-serif;
+    margin-left: 10%;
+}
+.footer-section img {
+    margin-right: 3%;
+}
+.lower{
+    font-style: italic;
+    font-family: "Georgia", sans-serif;
+    margin-left: 10%;
+}
+
+.footer-text {
+    font-family: "Georgia", sans-serif;
+
+}
+.footer-section p {
+    margin-left: 10%;
+    font-family: "Georgia", sans-serif;
+}
+.carousel {
+    margin-bottom: 50px;
+    padding-right: 50px;
+}
+@media screen and (max-width: 600px){
+
+    .new-items{
+        width: 50%;
+        margin-bottom: 100px;
+    }
+    .footer-section {
+        width: 50%;
+        margin: auto;
+        height: 200px;
+        text-align: center;
+    }
+    .promo {
+        margin-bottom: 200px;
+    }
+    .groups div {
+        height: 400px;
+    }
+    .btn-all {
+        display: flex;
+        justify-content: space-around;
+        padding: 0.7em;
+        background-color: white;
+        border: 1px solid darkgrey;
+
+    }
+    .inscr {
+        font-family: "Georgia", sans-serif;
+        font-weight: 300;
+        font-size: 0.5em;
+        text-indent: 55%;
+
+
+    }
+
+    .inscr-2 {
+        font-family: "Georgia", sans-serif;
+        font-weight: 100;
+        font-size: 0.5em;
+        text-indent: 70.5%;
+        margin-top: -20px;
+    }
+    .carousel{
+        display: none;
+    }
+    }
